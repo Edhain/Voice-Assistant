@@ -1,0 +1,13 @@
+groq
+streamlit
+python-dotenv
+deepgram-sdk
+SpeechRecognition
+pygame
+pydub
+pyaudio
+langchain
+langchain-groq
+langchain-core
+langchain-community
+colorama
