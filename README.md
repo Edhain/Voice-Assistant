@@ -7,6 +7,7 @@ This project is a voice assistant designed to handle customer queries related to
 - Natural Language Processing: Processes the text with a Large Language Model (LLM) using the Groq API and a defined prompt template:  
 "You are a helpful assistant in handling customer queries related to online shopping."  
 - Text-to-Speech: Converts the response text back to audio using Deepgram API.  
+- Chat History Memory: Maintains chat history during a session to provide context-aware responses.
 
 ## Requirements
 - Python 3.12  
@@ -32,6 +33,8 @@ API calls for Whisper, LLM processing, and text-to-speech require an active inte
 The system is capable of detecting multiple languages and generating responses, but it has not been thoroughly tested beyond English.
 4. **Limited Customization**:  
 The assistant's behavior is fixed to the prompt template provided.  
+5. **Manual Session Management**:  
+While chat history is maintained for a single session, users must manually restart or manage sessions to reset the memory.
 
 ## Future Updates
 To improve the application, the following enhancements are planned:
